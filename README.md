@@ -38,18 +38,14 @@ For a full example usage of the libaray, please see [examples/](examples/).
 
 If you found this library useful in your research, please consider citing
 ```
-@ARTICLE{2019arXiv190510403J,
-       author = {{Jia}, Junteng and {Benson}, Austin R.},
-        title = "{Neural Jump Stochastic Differential Equations}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
-         year = "2019",
-        month = "May",
-          eid = {arXiv:1905.10403},
-        pages = {arXiv:1905.10403},
-archivePrefix = {arXiv},
-       eprint = {1905.10403},
- primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190510403J},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@incollection{NIPS2019_9177,
+    title = {Neural Jump Stochastic Differential Equations},
+    author = {Jia, Junteng and Benson, Austin R},
+    booktitle = {Advances in Neural Information Processing Systems 32},
+    editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+    pages = {9847--9858},
+    year = {2019},
+    publisher = {Curran Associates, Inc.},
+    url = {http://papers.nips.cc/paper/9177-neural-jump-stochastic-differential-equations.pdf}
 }
+```
