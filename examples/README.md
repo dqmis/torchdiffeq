@@ -14,9 +14,9 @@ This would create four directories in `workspace`, each contains the training in
 ## NJSDE for Point Process with Real-Valued Labels
 The `point_process_rvl.py` file contains the implementation for learning point processes with a real-valued label. The model assumes the real-valued labels are sampled from a probability distribution parameterized by a mixture of Gaussians.
 
-To reproduce the experiments reported in the paper, run
+To reproduce the experiments reported in the paper, run 
 ```
-make run_point_processes_gaussian
+make run_point_process_with_real_valued_label
 ```
 
 ## NJSDE for Real-World Event Type Prediction Task in Time Series Data
